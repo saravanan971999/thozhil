@@ -1,0 +1,4 @@
+[03-May-2024 15:18:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/euzyv5ixc9ev/public_html/thozhil.co.in/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/euzyv5ixc9ev/public_html/thozhil.co.in/config/database.php on line 18

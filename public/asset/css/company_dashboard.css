@@ -1,0 +1,52 @@
+.custom-navbar {
+    background-color: #124243; /* Replace with your custom color code */
+}
+
+
+ /* Custom CSS for the navigation bar background color */
+ .custom-navbar {
+    background-color: #124243; /* Replace with your custom color code */
+}
+
+/* Custom CSS for the side navigation */
+.side-nav {
+    background-color:#020201; /* Set your custom color for the side navigation */
+    height: 100vh;
+}
+
+/* Style for the links in the side navigation */
+.side-nav a {
+    color: #fffdfd; /* Set the text color for the links */
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Style for active link in the side navigation */
+.side-nav a.active {
+    background-color: #27ae60; /* Set a different color for the active link */
+}
+.dash a.active {
+    background-color: #27ae60; /* Set a different color for the active link */
+    text-decoration: none;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease;
+}
+
+.card-link:hover {
+    background-color: #e0e0e0;
+}
+
+.card {
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease; /* Add smooth transition on hover */
+    margin-bottom: 20px; /* Increase spacing between cards */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+    
+    body{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+    .title{
+        font-size: 15px;
+        font-weight: 400;
+        position: relative;   
+        color: black;
+    }
+    .title span{
+        color: rgb(14, 236, 214);
+    }
+    .container{
+        max-width: 700px;
+        width: 100%;
+        background: rgb(248, 244, 244);
+        padding: 25px 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .header{
+        height: 100px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 15px;
+        background-color: rgb(16, 72, 66);
+        color: rgb(14, 236, 214);
+        }
+    .header h2{
+        position: relative;
+        top: 25px;
+        left: 10px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .header .rectangular{
+        width: 200px;
+        height: 70px;
+        margin-left: 500px;
+        position: absolute;
+        top: 45px;
+        background-color: rgb(14, 236, 214);
+        
+    }
+    .header .square{
+        width: 120px;
+        height: 70px;
+        margin-left: 580px;
+        position: absolute;
+        top: 10px;
+        background-color: rgb(235, 235, 8);
+        
+    }
+    .header span{
+        color: white;
+    }
+    .container form .user-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0 12px 0;
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: calc(100% /2 - 20px);
+    
+    }
+    .user-details .input-box label{
+        display: block;
+        font-weight: 500px;
+        margin-bottom: 5px;
+    }
+    .user-details .input-box input,select{
+        height: 45px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #dbd9d9;
+        padding-left: 15px;
+        font-size: 16px;
+        border-bottom-width: 2px;
+        transition: all 0.3s ease;
+    }
+    .user-details .input-box input,select:focus,
+    .user-details .input-box input,select:valid{
+        border-color:rgb(134, 141, 141)
+    }
+    form .registerbtn{
+        height: 45px;
+        margin: 45px 150px;
+        width: 100%;
+    }
+    form .registerbtn button{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: #0f0f0f;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        background-color: rgb(236, 127, 11);
+    }
+    .liner{
+        height: 20px;
+        margin: 0;
+        width: 100%;
+    }
+    .liner input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: #0f0f0f;
+        border: none;
+        background-color: rgb(14, 236, 214);
+    }
+    .footer-liner{
+        height: 50px;
+        margin: 0;
+        width: 100%;
+    }
+    .footer-liner input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        color: #0f0f0f;
+        border: none;
+        background-color: rgb(16, 72, 66);
+    }
+    .error-message {
+        display: none;
+        color: rgb(233, 13, 13);
+    }
+    .alert {
+        background-color: #f0f0f0;
+        padding: 10px;
+    }
+    .alert-warning {
+        padding: 10px;
+        color: #ff0000; 
+        background-color: rgba(228, 164, 99, 0.2) 
+    }
+    
+   
+    
